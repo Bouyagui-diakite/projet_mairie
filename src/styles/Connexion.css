@@ -1,0 +1,197 @@
+.divlogin {
+    margin-top: 0px;
+    position: relative;
+    background-color:#f1f8ff;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    height: 76vh;
+  }
+  .fistinform {
+    height: 30vh;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+  }
+  
+  .form {
+    position: relative;
+    width: 20rem;
+  }
+  .form__input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgb(37, 37, 37);
+    border-radius: 0.3rem;
+    outline: none;
+    padding: 1rem;
+    background: none;
+  }
+  .form__input:hover {
+    border-color: rgb(0, 162, 255);
+  }
+  
+  .form__input:focus {
+    border-color: #577cb6;
+  }
+  
+  .form__label {
+    position: absolute;
+    left: 1rem;
+    top: 0.2rem;
+    padding: 0 0.5rem;
+    color: #577cb6;
+    cursor: text;
+    transform: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+    background-color: #f1f8ff;
+  }
+  
+  .form__input:focus ~ .form__label,
+  .form__input:not(:placeholder-shown).form__input:not(:focus) ~ .form__label {
+    top: -0.87rem;
+    font-size: 1rem;
+    left: 1rem;
+    transition: 0.5s;
+  }
+  
+  .h1prem {
+    padding-top: 60px;
+    text-align: center;
+  }
+  .hrTitre {
+    width: 40%;
+    transform: translateX(75%);
+    margin-top: 5px;
+    border-radius: 5px;
+    color: #577cb6;
+    padding: 5px;
+    margin-bottom: 4.5rem;
+  }
+  .sousForm {
+    margin-top: 5em;
+    width: 100%;
+    text-align: center;
+    display: block flow-root;
+    font-size: 0.9rem;
+  }
+  .btnconnect {
+    border-radius: 6px;
+    outline: none;
+    background-color: #577cb6;
+    color: #f7fbff;
+    border-color: black;
+    border-style: groove;
+  }
+  .btnconnect:hover {
+    color: black;
+    border-color: rgb(0, 162, 255);
+  }
+  .link1 {
+    text-decoration: none;
+    color: #577cb6;
+  }
+  .link1:hover {
+    color: rgb(0, 162, 255);
+    text-decoration: underline;
+  }
+  
+  /*CSS Inscription */
+  .stepDiv {
+    background-color: white;
+    height: 45px;
+    margin-top: -35px;
+  }
+  .step1 {
+    outline: none;
+    background-color: transparent;
+    width: 120px;
+    border: none;
+    height: 45px;
+    border-right: 4px solid #577cb6;
+    border-top-right-radius: 45%;
+    border-bottom-right-radius: 45%;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    position: relative;
+    background-color: #577cb6;
+    z-index: 3;
+  }
+  .step2 {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    height: 45px;
+    border-right: 4px solid #577cb6;
+    border-top-right-radius: 45%;
+    border-bottom-right-radius: 45%;
+    padding-right: 0.21rem;
+    padding-left: 1.9rem;
+    width: 125px;
+    margin-left: -45px;
+    background-color: white;
+    position: absolute;
+    z-index: 2;
+  }
+  .step3 {
+    outline: none;
+    background-color: transparent;
+    border: none;
+    height: 45px;
+    border-right: 2px solid #577cb6;
+    width: 180px;
+    padding-left: 5rem;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  .btfocus:hover {
+    background-color: #577cb6;
+  }
+  
+  /* ---> Div2<--- CSS Inscription */
+  .stepDiv2 {
+    background-color: white;
+    margin-left: 50%;
+    width: 95%;
+    transform: translateX(-50%);
+    position:fixed;
+    bottom: 65px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+  }
+  .btnDiv2 {
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  .suiv {
+    width: 6em;
+    background-color:#577cb6;
+  }
+  .precedent{
+      background-color:#577cb6;
+  }
+  
+  .already {
+    position: absolute;
+    right: 0;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+  
+  .btnAbout{
+    border-radius: 15px;
+    width: 50%;
+    height: 50px;
+    font-Weight: bold;
+    background-Color: white;
+    border-Color: #5896FF;
+    text-decoration: none;
+    font-style: none;
+  }
+  .btnAbout:hover{
+    background-color: rgb(128, 181, 251);
+  }

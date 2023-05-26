@@ -1,0 +1,79 @@
+.main {
+  background-color: #f1f8ff;
+  margin: 0px;
+  padding: 0px;
+  -webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+}
+
+.header {
+  height: 80px;
+  background-color: #577cb6;
+  width: 100%;
+}
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  background-color: white;
+  text-align: center;
+  padding: 15px;
+  width: 100px;
+  position: absolute;
+  top: 10px;
+  border-radius: 50%;
+}
+.nompltfrm {
+  position: absolute;
+  top: 22.5px;
+  margin-left: 115px;
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+.userName{
+  font-weight: bold;
+  color: white;
+  padding-top: 30.5px;
+}
+.leaveBtn1{
+  padding-left: 2px;
+}
+.leaveBtn2{
+  padding-right: 3px;
+}
+.logOutBtn{
+  text-decoration: none;
+  color:white ;
+}
+.logOutBtn:hover{
+  color: red;
+}
+.footer {
+  height: 52px;
+  background-color: #fff;
+  box-shadow: 0 -4px 6px 0 rgba(0, 0, 0, 0.16);
+  position: absolute fixed;
+  bottom: 0;
+  width: 100%;
+}
+.dateCrea {
+  padding-top: 15px;
+  font-weight: bold;
+  color: rgb(70, 70, 70);
+}
+.groupCrea {
+  padding-top: 15px;
+  font-weight: bold;
+  color: rgb(70, 70, 70);
+}
+.redirect{
+  text-decoration: none;
+  color: black;
+}
+.redirect:hover {
+  text-decoration: none;
+  color: black;
+}

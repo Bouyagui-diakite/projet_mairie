@@ -1,0 +1,147 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+.divloginAD {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  top: 0px;
+  background-color:#dbdbdb;
+}
+.fistinformAD {
+  height: 30vh;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.form {
+  position: relative;
+  width: 20rem;
+}
+.form__inputAD {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 2px solid rgb(37, 37, 37);
+  border-radius: 0.3rem;
+  outline: none;
+  padding: 1rem;
+  background: none;
+}
+.form__inputAD:hover {
+  border-color: #5f5f5f;
+}
+
+.form__inputAD:focus {
+  border-color: #5f5f5f;
+}
+
+.form__labelAD {
+  position: absolute;
+  left: 1rem;
+  top: 0.2rem;
+  padding: 0 0.5rem;
+  color: #5f5f5f;
+  cursor: text;
+  transform: top 200ms ease-in, left 200ms ease-in, font-size 200ms ease-in;
+  background-color: #dbdbdb;
+}
+
+.form__inputAD:focus ~ .form__labelAD,
+.form__inputAD:not(:placeholder-shown).form__inputAD:not(:focus) ~ .form__labelAD {
+  top: -0.87rem;
+  font-size: 1rem;
+  left: 1rem;
+  transition: 0.5s;
+}
+
+.h1prem {
+  padding-top: 60px;
+  text-align: center;
+}
+.hrTitreAD {
+  width: 40%;
+  transform: translateX(75%);
+  margin-top: 5px;
+  border-radius: 5px;
+  color: #000000;
+  padding: 5px;
+  margin-bottom: 4.5rem;
+}
+.sousForm {
+  margin-top: 5em;
+  width: 100%;
+  text-align: center;
+  display: block flow-root;
+  font-size: 0.9rem;
+}
+.btnconnectAD {
+  border-radius: 6px;
+  outline: none;
+  background-color: #5f5f5f;
+  color: #f7fbff;
+  border-color: black;
+  border-style: groove;
+}
+.btnconnectAD:hover {
+  color: black;
+  border-color: rgb(231, 231, 231);
+}
+.link1AD {
+  text-decoration: none;
+  color: #000;
+}
+.link1AD:hover {
+  color: rgb(134, 134, 134);
+  text-decoration: underline;
+}
+/* ------------------> Header Admin <--------------------*/
+.headerAdmin{
+  height: 80px;
+  background-color: #2e2e2e;
+  width: 100%;
+}
+
+.footAdmin{
+  position: relative;
+  bottom: 0;
+  padding-top: 140px;
+}
+/* ------------------> Footer Admin <--------------------*/
+
+.footAdmin{
+position: relative;
+bottom: 0;
+}
+
+.footerAdmin{
+height: 52px;
+background-color: #fff;
+box-shadow: 0 -4px 6px 0 rgba(0, 0, 0, 0.16);
+position: fixed;
+bottom: 0;
+width: 100%;
+}
+
+.dateCreaAdmin {
+font-weight: bold;
+color: rgb(70, 70, 70);
+}
+.groupCreaAdmin {
+font-weight: bold;
+color: rgb(70, 70, 70);
+}
+.fixedOnfooterAdmin{
+margin-top: 15px;
+}
+
+/* ------------------> DashBoard Admin <--------------------*/
+
+
