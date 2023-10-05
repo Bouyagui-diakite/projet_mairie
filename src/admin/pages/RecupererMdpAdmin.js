@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/adminConnexion.css";
 import HeaderAdmin from "../components/HeaderAdmin";
-import Footer from "../../components/Footer";
+import Footer from "../../components/FooterAdmin";
 import { NavLink } from "react-router-dom";
 const RecupererMdpAdmin = () => {
   return (
